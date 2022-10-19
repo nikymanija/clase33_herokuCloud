@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/count',(req,res)=>{
-    count ++
+    count++
     res.send(`han llegado ${count} peticiones`)
 })
 
